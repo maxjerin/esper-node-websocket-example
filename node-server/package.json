@@ -1,0 +1,16 @@
+{
+  "name": "node-server",
+  "version": "1.0.0",
+  "description": "Node based market data server that streams random market data over websockets",
+  "main": "app.js",
+  "scripts": {
+    "prestart": "npm install",
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "maxjerin",
+  "license": "ISC",
+  "dependencies": {
+    "ws": "^2.0.3"
+  }
+}
